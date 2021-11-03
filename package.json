@@ -2,6 +2,10 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "prettier": "^2.4.1"
+  },
+  "scripts": {
+    "prettify": "prettier --write ./packages"
   }
 }
