@@ -2,10 +2,16 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "husky": "^7.0.4",
     "lerna": "^4.0.0",
+    "lint-staged": "^11.2.6",
     "prettier": "^2.4.1"
   },
   "scripts": {
-    "prettify": "prettier --write ./packages"
+    "prettify": "prettier --write ./packages",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
