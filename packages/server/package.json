@@ -5,6 +5,7 @@
   "main": "src/server.js",
   "scripts": {},
   "dependencies": {
-    "client": "0.0.1"
+    "client": "0.0.1",
+    "lodash": "^4.17.21"
   }
 }

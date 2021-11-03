@@ -5,5 +5,8 @@
   "main": "src/client.js",
   "scripts": {
     "dev": "node src/index.js"
+  },
+  "devDependencies": {
+    "date-fns": "^2.25.0"
   }
 }
